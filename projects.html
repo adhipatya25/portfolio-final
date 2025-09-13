@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Adhipatya Saxena</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {}
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500 ease-in-out">
+
+  <!-- Header & Navigation -->
+  <header class="bg-blue-600 dark:bg-gray-800 text-white shadow-md sticky top-0 z-50">
+    <nav class="mx-auto flex justify-between items-center py-4">
+      <h1 class="text-xl font-bold ml-4 font-mono">Adhipatya Saxena</h1>
+      <div class="flex items-center space-x-6 mr-4">
+        <a href="index.html" class="nav-link text-white dark:text-white hover:text-black dark:hover:text-blue-400 transition-colors duration-300">Home</a>
+        <a href="projects.html" class="nav-link text-white dark:text-white hover:text-black dark:hover:text-blue-400 transition-colors duration-300">Projects</a>
+        <a href="contact.html" class="nav-link text-white dark:text-white hover:text-black dark:hover:text-blue-400 transition-colors duration-300">Contact</a>
+        <!-- Dark Mode Toggle -->
+        <button id="theme-toggle" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-300 mr-4">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Project Section -->
+  <section class="py-16 bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-800 dark:to-gray-900">
+    <div class="mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-4">My Projects</h1>
+      <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          Here's a collection of projects I've worked on, showcasing my skills and experience in web development.
+      </p>
+    </div>
+  </section>
+
+  <!-- Project Table -->
+  <section class="mx-auto py-12 bg-white dark:bg-gray-800">
+    <div class="mx-auto px-6">  
+      <h2 class="text-3xl font-bold text-center mb-11">Project Overview</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full border border-gray-300 text-center bg-white dark:bg-gray-800 shadow-md transition-colors duration-300 ease-in-out mb-4">
+          <thead class="bg-blue-600 dark:bg-gray-700 text-white">
+            <tr>
+              <th class="p-3">Name</th>
+              <th class="p-3">Description</th>
+              <th class="p-3">Tools Used</th>
+              <th class="p-3">Project Status</th>
+              <th class="p-3">Year</th>
+            </tr>
+          </thead>
+            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 hover:text-xl">
+              <td class="p-3"><a href="https://github.com/adhipatya3552/HireMe-AI" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline font-semibold">HireMe AI </a></td>
+              <td class="p-3">AI Resume Builder & Cover Page Generator</td>
+              <td class="p-3">React, Tailwind CSS, Typescript</td>
+              <td class="p-3">Prototype</td>
+              <td class="p-3">2023</td>
+            </tr>
+            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 hover:text-xl">
+              <td class="p-3"><a href="https://github.com/adhipatya3552/open-lens" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline font-semibold">OpenLens</a></td>
+              <td class="p-3">An Indian website which provide free media files to users, like Pexel.</td>
+              <td class="p-3">React, Tailwind CSS, API</td>
+              <td class="p-3">Still in Progress</td>
+              <td class="p-3">2024</td>
+            </tr>
+            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 hover:text-xl">
+              <td class="p-3"><a href="https://github.com/adhipatya3552/AskProperty-AI" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline font-semibold">AskProperty AI</a></td>
+              <td class="p-3">AI Real Estate Inquiry Bot with OpenRouter API</td>
+              <td class="p-3">React, Tailwind CSS, Javascript, Typescript</td>
+              <td class="p-3">Prototype, and working</td>
+              <td class="p-3">2024</td>
+            </tr>
+            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 hover:text-xl">
+              <td class="p-3">Smart Cleaning Robot</td>
+              <td class="p-3">Arduino-based SLAM Robot with Suction & Sensors</td>
+              <td class="p-3">Arduino IDE, Java</td>
+              <td class="p-3">Still in Progress</td>
+              <td class="p-3">2025</td>
+            </tr>
+            <tr class="hover:bg-gray-100 dark:hover:bg-gray-700 transition-all duration-300 hover:text-xl">
+              <td class="p-3"><a href="https://github.com/adhipatya3552/Social-Verify" target="_blank" class="text-blue-600 dark:text-blue-400 hover:underline font-semibold">Social-Verify</a></td>
+              <td class="p-3">A website to verify if the user social account is legitimate or not</td>
+              <td class="p-3">React, Tailwind CSS, HTML</td>
+              <td class="p-3">Prototype, and working</td>
+              <td class="p-3">2025</td>
+            </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Demo -->
+  <section class="video-row py-16 bg-white dark:bg-gray-900">
+  <div class="mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-8">Project Demo</h2>
+    
+    <!-- Flex row, no wrapping -->
+    <div class="flex justify-center gap-10 mt-10">
+      <video controls class="w-[580px] h-auto rounded-lg shadow-lg">
+        <source src="project1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <video controls class="w-[580px] h-auto rounded-lg shadow-lg">
+        <source src="project2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 dark:bg-gray-800 text-white text-center py-4 mt-2 transition-colors duration-500 ease-in-out">
+    <p>© 2025 Adhipatya Saxena | All Rights Reserved</p>
+  </footer>
+
+  <!-- Theme Toggle -->
+  <script>
+    (function () {
+      const toggleBtn = document.getElementById('theme-toggle');
+      const html = document.documentElement;
+      const saved = localStorage.getItem('theme');
+
+      if (saved === 'dark') {
+        html.classList.add('dark');
+        if (toggleBtn) toggleBtn.textContent = '☀️';
+      } else if (saved === 'light') {
+        html.classList.remove('dark');
+        if (toggleBtn) toggleBtn.textContent = '🌙';
+      } else {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          html.classList.add('dark');
+          if (toggleBtn) toggleBtn.textContent = '☀️';
+        } else {
+          html.classList.remove('dark');
+          if (toggleBtn) toggleBtn.textContent = '🌙';
+        }
+      }
+
+      if (!toggleBtn) return;
+      toggleBtn.addEventListener('click', () => {
+        const isDark = html.classList.toggle('dark');
+        if (isDark) {
+          localStorage.setItem('theme', 'dark');
+          toggleBtn.textContent = '☀️';
+        } else {
+          localStorage.setItem('theme', 'light');
+          toggleBtn.textContent = '🌙';
+        }
+      });
+    })();
+
+    // Smooth page transitions
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        if (this.href) {
+          e.preventDefault();
+          document.body.classList.add('fade-out');
+          setTimeout(() => {
+            window.location.href = this.href;
+          }, 500);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
